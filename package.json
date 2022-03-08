@@ -1,9 +1,11 @@
 {
+  "type": "module",
+  "scripts": {
+    "dev": "node src/index.js"
+  },
   "dependencies": {
     "express": "^4.17.3",
     "vue": "^3.2.31",
     "vuex": "^4.0.2"
-  },
-  "type": "module"
-  
+  }
 }
