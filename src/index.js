@@ -11,7 +11,7 @@ const port = 3000
 // 實例化 vue 並使用 vuex
 createApp().use(store) 
 
-// vue computed -> 當 store 裡的 count 有變化時更新值
+// vue computed -> 當 store 裡的 count 有變化時更新 countState 的值
 const countState = computed(() => store.state.count)
 
 // vue watch -> 監聽 countState 裡的值，當值有變化時執行自定義功能
