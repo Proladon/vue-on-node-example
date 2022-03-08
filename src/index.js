@@ -2,9 +2,14 @@ import express from 'express'
 import store from './store.js'
 import { computed } from '@vue/reactivity'
 import { watch } from '@vue/runtime-core'
+import { createApp } from 'vue'
 
 const app = express()
 const port = 5000
+
+// 必要
+// 實例化 vue 並使用 vuex
+createApp().use(store) 
 
 // vue computed -> 當 store 裡的 count 有變化時更新值
 const countState = computed(() => store.state.count)
