@@ -1,7 +1,7 @@
 # vue-on-node-example
 
-vue 可以直接在 node (server side) 上運行，並使用 vue 的功能
-例如 vue 的 computed、watch ...等雙向綁定或是監聽的功能
+vue 可以直接在 node (server side) 上運行，並使用 vue 的功能  
+例如 vue 的 computed、watch ...等雙向綁定或是監聽的功能  
 甚至也可以直接使用vuex來做後端的全域狀態管理
 這邊以 vue + express 的整合使用來做簡單示範
 
