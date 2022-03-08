@@ -14,8 +14,7 @@ $ yarn
 ```
 $ yarn dev
 ```
-3.
-```
-前往 http://localhost:3000
-```
+3. 前往 http://localhost:3000
+
+4. 重複刷新頁面，並觀察終端機的 console log
 
