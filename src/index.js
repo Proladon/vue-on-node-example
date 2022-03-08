@@ -5,7 +5,7 @@ import { watch } from '@vue/runtime-core'
 import { createApp } from 'vue'
 
 const app = express()
-const port = 5000
+const port = 3000
 
 // 必要
 // 實例化 vue 並使用 vuex
